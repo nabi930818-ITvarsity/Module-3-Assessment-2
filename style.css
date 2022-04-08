@@ -1,0 +1,440 @@
+.home-menu-items{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 10px solid darkgoldenrod ;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+    
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+/*==========#==========*/
+
+html{
+    height: 100%;
+    
+}
+
+.body-home{
+    background-image: url(images/red%20port.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*==========HOME PAGE==========*/
+
+#home-logo-img {
+    width: 390px;
+    display: block;
+    margin: auto;
+    padding: 15px 10px 10px 10px;
+    
+}
+
+#home-logo-text {
+    width: 75%;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+.return{
+    float: left;
+    display: block;
+    width: 100;
+    font-size: 15px;
+    height: 17px;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-right:2px;
+}
+.return i{
+    float: left;
+    padding: 0px 0px 0px 5px;
+    color: darkgoldenrod;
+}
+
+
+
+
+
+/*======================BOTTOM-TABS======================*/
+
+#tabs-bottom{
+    background-color: black;
+   position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 50px;
+}
+#tabs-bottom .return{
+    float: left;
+    display: block;
+    width: 100;
+    font-size: 15px;
+    height: 17px;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-right:2px;
+}
+#tabs-bottom .return i{
+    float: left;
+    padding: 0px 0px 0px 5px;
+    color: darkgoldenrod;
+}
+#tabs-bottom i{
+    float: right;
+    padding: 0px 5px 0px 0px;
+    color: darkgoldenrod;
+    
+}
+#tabs-bottom a{
+    color: darkgoldenrod;
+     float: right;
+    display: block;
+    width: 100;
+    font-size: 15px;
+    height: 17px;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-right:2px;
+    
+}
+
+
+
+
+
+
+
+/*==========MEALS-PAGE==========*/
+
+
+
+#meals{
+    padding-top: 80px;
+    
+}
+
+.meals-list a{
+    text-decoration: none;
+   
+    
+    
+}
+
+.meals-list-items{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid Darkgoldenrod;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 98%;
+}
+
+.meals-list-items h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    
+}
+.meals-list-items p{
+    font-size: 12px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 10px;
+    
+}
+
+.meals-list-items i{
+    float: right;
+    color: darkgoldenrod;
+    padding-right: 2px;
+    
+}
+
+
+
+.body-meals{
+    background-image: url(images/background%20board%20port.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*==========HEADER==========*/
+
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+    
+}
+   
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 5px;
+    color: darkgoldenrod;
+    
+}
+
+.header img{
+    width: 400px;
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-right: 5px;
+
+}
+
+    
+    
+    
+/*==========FOOD-PAGE==========*/
+
+#food{
+    padding-top: 50px;
+}
+.body-food{
+    background-image: url(images/background%20board%20port.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*==========FOOD-DETAILS==========*/
+
+.food-details img{
+    width: 100%;
+    
+
+}
+
+.food-details h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: 5px solid darkgoldenrod;
+    margin: 0px;
+    padding: 2px;
+    
+}
+.food-details h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+    padding-bottom: 5px;
+    
+}
+.food-details h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: 5px solid darkgoldenrod;
+    margin: 0px;
+    padding: 2px;
+    
+    
+}
+.food-details h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    border: 5px solid darkgoldenrod;
+    margin: 0;
+    margin-left: 70%;
+    padding: 2px;
+    width: 18%;
+
+    
+}
+.food-details h5{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+    padding-bottom: 5px;
+    
+}
+.food-details h6{
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+    color:darkgoldenrod;
+    padding-bottom: 5px;
+    
+}
+
+
+.food-details-about{
+    
+    margin: auto;
+    
+}
+
+
+.food-details-about h2{
+    
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.food-details-about a{
+    
+    text-decoration: none;
+}
+
+
+
+    
+
+.food-details-extras{
+    padding-top: 25px;
+    
+    
+}
+
+
+.food-details ol{
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 15px;
+    color: white;
+    font-weight:600;
+}
+
+
+.food-details .gallery{
+     margin: auto;
+     width:75%;
+}
+.food-details textarea{
+    border: 5px solid darkgoldenrod;
+    color: darkgoldenrod;
+    font-size: 13px;
+    display: inline-block;
+    width: 97%;
+    height: 150px;
+    margin: 0px;
+    padding: 2px;
+    
+}
+
+
+/*==========RESPONSIVE LAYOUTS==========*/
+
+@media only screen and (min-width:600px){
+    #meals{
+        width: 80%;
+        margin: auto;
+        
+    }
+    #food{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #food{
+        width: 60%;
+        margin: auto;
+        
+    }
+}
+
+@media only screen and (min-width:1500px){
+    
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #food{
+        width: 40%;
+        margin: auto;
+        
+    }
+}
+
+@media only screen and (min-width:720px){
+    .body-home{
+        background-image: url(images/red%20land.jpg);
+    }
+    
+    .body-meals{
+        background-image: url(images/background%20board%20land.jpg);
+    }
+}
+
+
+
+
